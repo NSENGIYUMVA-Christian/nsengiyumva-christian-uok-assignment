@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+  <head>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Applying an internal style to an HTML list and an anchor tag */
+      li { color: rgb(0, 81, 115); font-size: 25px;}
+       a {color: rgb(39, 37, 22); font-size: 25px; font-weight: 900;}
+       .part1{
+        background-color: aliceblue;
+       }
+    </style>
+    <title>assignment 2</title>
+  </head>
+  <body>
+    <div class="part1" >
+      <h1>Music center</h1>
+      <!-- list part-->
+      <ol>
+        <li>Track 1</li>
+        <li>Track 2</li>
+      </ol>
+    </div>
+ 
+    <!-- An image as a link -->
+    <a href="https://open.spotify.com/">
+     click here 
+      <img style="width: 300px" height="30" src="./spotfy.png" alt="uok" />
+      to listen to spotify music
+    </a>
+
+    <!--3. Loading audio and videos to the web page 4. Attributes of video and audio tag 5. a poster on the video -->
+    <h2>Below is Audio Example</h2>
+    <audio controls>
+      <source src="./music.mp3" type="audio/mpeg" />
+      Play this music
+    </audio>
+
+    <h2>Below is Video Example and poster</h2>
+    <div style="background-color: aqua;" >
+      <video width="500" height="240" controls poster="./theposter.png">
+        <source src="./music.mp4" type="video/mp4" />
+        View this music video
+      </video>
+    </div>
+  
+  </body>
+</html>
